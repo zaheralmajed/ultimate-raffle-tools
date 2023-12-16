@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --800: #08090e;
+  --600: #292a2f;
+  --000: #fbfcfc;
+  --C001: #f1c981;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --800: #08090e;
+    --600: #292a2f;
+    --000: #fbfcfc;
+    --C001: #f1c981;
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --800: #08090e;
+    --600: #292a2f;
+    --000: #fbfcfc;
+    --C001: #f1c981;
+  }
+}
+
+html {
+  font-size: 14px !important;
+  color: var(--000);
+}
+body {
+  background-color: var(--800);
+  color: var(--000);
+  overflow-x: hidden;
+  background-image: radial-gradient(circle, var(--800), var(--800));
+}
+.heroButton {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  box-shadow: 0px 0px 1px 1px var(--600), 0px 4px 8px 0px var(--800);
+}
+
+.heroButton-3 {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  background: var(--C001);
+  padding: 8px;
+  color: var(--800);
+}
+.heroButton-4 {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  background: var(--C001);
+  padding: 8px;
+  color: var(--800);
+}
+.heroButton-5 {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  background: var(--000);
+  padding: 8px;
+  color: var(--800);
+}
+.heroButton-5:disabled {
+  opacity: 0.3;
+  background: var(--600);
+  color: var(--000);
+}
+
+.heroButton:hover {
+  box-shadow: 0px 4px 16px 0px var(--600);
+}
+.ButtomText {
+  position: absolute;
+  z-index: 100;
+  background: var(--800);
+  width: calc(100% - 3px);
+  height: calc(100% - 3px);
+  border-radius: 1rem;
+  color: var(--000);
+}
+textarea {
+  background: var(--800);
+  border-radius: 8px;
+  border: none !important;
+  padding: 24px 24px;
+  box-shadow: 0px 0px 1px 1px var(--600), 0px 4px 8px 0px var(--800) !important;
+  height: fit-content;
+  margin-top: 8px;
+}
+textarea:focus-visible {
+  border: none !important;
+  outline: none;
+}
+textarea:read-only {
+  background: var(--600);
+}
+.heroButton-3:disabled {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  background: var(--600);
+  padding: 8px;
+  color: var(--000);
+  opacity: 0.4;
+}
+.winner {
+  background-color: var(--600);
+  border-radius: 16px;
+  padding: 8px;
+  margin: 8px 0 12px 0;
+}
