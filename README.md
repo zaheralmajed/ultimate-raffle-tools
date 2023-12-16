@@ -26,7 +26,7 @@ Welcome to the Ultimate Raffle Tools! This collection of powerful applications i
 </div>
 
 <p align="center">
-<img  src="https://raw.githubusercontent.com/zaheralmajed/json-ultimate-tools/main/public/screenshot.png" alt="Screenshot">
+<img  src="https://raw.githubusercontent.com/zaheralmajed/ultimate-raffle-tools/main/public/screenshot.png" alt="Screenshot">
 </p>
 
 With the Ultimate Raffle Tools, you can bring your raffle events to the next level. It's the ultimate solution for effortless raffle management, providing a convenient and enjoyable experience for both organizers and participants.
