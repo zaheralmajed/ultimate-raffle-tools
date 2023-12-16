@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">
-Ultimate Tools
+Ultimate Raffle Tools
 </h1>
 Welcome to the Ultimate Raffle Tools! This collection of powerful applications is designed to make organizing and conducting raffles a breeze. Whether you're planning a charity event, a company giveaway, or a community fundraiser, our user-friendly interface and robust features will provide you with a seamless and convenient experience throughout the entire raffle process.
 
@@ -45,7 +45,7 @@ To deploy the Ultimate Raffle Tools, you can follow these steps:
 
 5. Open your web browser and go to `http://localhost:3000`.
 
-# Contribute to JSON Ultimate Tools
+# Contribute to Ultimate Raffle Tools
 
 I encourage contributions to the Ultimate Raffle Tools repository. If you have new code files or want to improve existing ones, please feel free to submit pull requests. Together, we can enhance the tool and provide developers and designers with a valuable resource. Thank you for your support!
 
